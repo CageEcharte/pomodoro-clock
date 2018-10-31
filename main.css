@@ -1,0 +1,192 @@
+
+
+#body{
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 1200px;
+  height: 600px;
+  background-color:#333333;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+.header {
+  color:  white;
+  font-size: 50px;
+  font-family: 'Baloo', cursive;
+}
+
+.BREAK{
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: 'Oxygen', sans-serif;
+
+}
+.SESSION{
+  color:  white;
+  font-size: 20px;
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+body{
+  background-color: #2BE3AC;
+
+}
+
+.timeWrap {
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-size: 34px;
+}
+
+
+.num{
+  color: white;
+}
+.num1{
+  color: white;
+  font-size: 20px;
+}
+.num2{
+  color: white;
+  font-size: 20px;
+}
+
+#title{
+  color: white;
+}
+.timed{
+  display: inline-block;
+  margin-right: 90px;
+}
+
+.timed2{
+  display: inline-block;
+
+}
+
+.timerr{
+  color: white;
+}
+
+.custom{
+  background-color: #333333;
+  color: white;
+  cursor: pointer;
+   border-style: solid;
+   border-color: white;
+   margin-bottom: 5px;
+   padding: 15px;
+   text-decoration: none;
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+.custom:hover{
+  background-color:#999999;
+  text-decoration: none;
+}
+
+.custom:focus{
+  color: white;
+  text-decoration: none;
+
+}
+
+#reset{
+  padding: 15px;
+  background-color:#333333;
+  color: white;
+  outline:none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Oxygen', sans-serif;
+
+}
+#reset:focus{
+  text-decoration: none;
+}
+
+#reset:hover{
+  color: #2BE3AC;
+  background-color: white;
+}
+#button{
+  padding: 15px;
+  background-color: white;
+  border-color: #d2d2d2 !important;
+  border-radius: 5px;
+  outline:none;
+  margin-right: 4px;
+  cursor: pointer;
+  font-family: 'Oxygen', sans-serif;
+
+}
+#button:hover{
+  color: #2BE3AC;
+  background-color: #333333;
+}
+.spacer2{
+  display: inline-flex;
+}
+.timeWrap{
+  font-size: 55px;
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+.created{
+  text-align: center;
+  color: #333333;
+  font-family: 'Baloo', cursive;
+
+
+}
+
+
+@media screen and (max-width: 1050px){
+
+  #body{
+    width: 600px;
+    height: 1500px;
+    margin-left: 180px;
+
+  }
+  .timed{
+    display: inline-block;
+    margin-right: 0;
+  }
+
+  .timed2{
+    display: block;
+  }
+  .created{
+    text-align: center;
+
+  }
+}
+@media screen and (max-width: 500px){
+
+  #body{
+    width: 360px;
+    height: 1500px;
+    margin-left: 180px;
+
+  }
+  .timed{
+    display: inline-block;
+    margin-right: 0;
+  }
+
+  .timed2{
+    display: block;
+  }
+  .created{
+    text-align: center;
+
+  }
+}
